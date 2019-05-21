@@ -2,7 +2,7 @@
 
 This repository includes your second challenge of this week. To accomplish this
 challenge successfully you had to get a PR(pull request) merged into this
-repository which includes an algorithm from the following given list. Your PR
+repository which includes an algorithm from the following given [list](https://github.com/COPS-IITBHU/cops_algorithms/blob/master/List_Of_Algorithms.md). Your PR
 is required to have proper title and description and make sure the algorithm you
 will be adding must go in the proper folder.
 
