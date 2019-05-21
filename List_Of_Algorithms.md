@@ -1,19 +1,3 @@
-# COPS Algorithm Contribution Challenge
-
-This repository includes your second challenge of this week. To accomplish this
-challenge successfully you had to get a PR(pull request) merged into this
-repository which includes an algorithm from the following given list. Your PR
-is required to have proper title and description and make sure the algorithm you
-will be adding must go in the proper folder.
-
-## Guidelines
-
-- Only one algorithm should be included in your PR from the given list.
-- Your algorithm should goes in the proper language folder in the repository.
-- You can make new folder for new language if it not exists currently.
-- Scores of different algorithms are also listed in the algorithms list.
-- Try to write code on your own rather than coying it from other sources.
-
 ## List of ALgorithms
 
 ### Searching and Sorting (Carries 1 point)
