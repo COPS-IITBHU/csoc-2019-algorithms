@@ -14,7 +14,7 @@ will be adding must go in the proper folder.
 - Scores of different algorithms are also listed in the algorithms list.
 - Try to write code on your own rather than coying it from other sources.
 
-## List of ALgorithms
+## List of Algorithms
 
 ### Searching and Sorting (Carries 1 point)
 
