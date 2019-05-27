@@ -12,9 +12,6 @@ int main()
 		cin>>a[i];
 	}
 
-
-
-
 	void bubble_sort(int a[])   //for ascending order
 	{
 		int temp;
@@ -26,26 +23,16 @@ int main()
 				temp=a[i];
 				a[i]=a[j];
 				a[j]=temp;
-
 			}
-
 		}
-
-
-
 
      for(int k=0;k<n;k++)
      {
      	cout<<a[k]<<" ";
 	 }
-
-	}
-
+     }
+	
 	cout<<"sorted array:"<<endl;
 	bubble_sort(a[n]);
-
-
 	return 0;
-
-
 }
