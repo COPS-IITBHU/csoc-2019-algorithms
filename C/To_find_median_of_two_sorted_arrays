@@ -1,3 +1,6 @@
+// Algorith to find Median of two sorted arrays.//
+// Array is to be entered in algorithm
+//Used pointers to solve it//
 #include <stdio.h>
 
 int max(int a, int b)
