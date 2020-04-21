@@ -1,8 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int max (a,b){
-  a>b? return a: return b;
+int max (int a,int b){
+  if(a>b)return a;
+  else return b;
 
 }
 
@@ -21,7 +22,7 @@ int findFloor(int n, int k)
   for( i=1;i<n+1;i++)
   {
     result[i][1]=1;
-    result[i][[0]=0;
+    result[i][0]=0;
   }
 
   //if egg left is only one then you need to check all the remaining floors below the one which broke the eggs
@@ -37,7 +38,7 @@ int findFloor(int n, int k)
     {
       result[i][j]=INT_MAX; //to store the maximum value of int
       for (int x = 1; x < j+1; x++) {
-        res = 1 + max(result[i-1],[x-1],result[i][j-x]);
+        res = 1 + max(result[i-1][x-1],result[i][j-x]);
         if(res<result[i][j])
           result[i][j]=res;
 
@@ -60,7 +61,8 @@ int main(){
 
     cout<<"Enter the number of eggs and floors";
     cin >> n >> k;
+    cout<<'\n';
 
-    cout<<"Trials Needed "<<findFloor(n,k);
+    cout<<"Trials Needed in worst case is:"<<findFloor(n,k);
 
 }
