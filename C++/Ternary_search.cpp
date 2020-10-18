@@ -2,7 +2,7 @@
 using namespace std; 
 
 int ternarySearch(int l, int r, int key, int ar[]){
-if (r >= l) {  
+	if (r >= l) {  
 		int mid1 = l + (r - l) / 3; 
 		int mid2 = r - (r - l) / 3; 
 		if (ar[mid1] == key) { 
