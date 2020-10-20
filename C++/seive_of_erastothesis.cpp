@@ -18,7 +18,7 @@ void seive_of_eras(int n)
    		}
    	}
 }
-int main()
+signed main()
 {
 	seive_of_eras(500000);
 	int n;
