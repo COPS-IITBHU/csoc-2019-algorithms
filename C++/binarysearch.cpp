@@ -18,7 +18,8 @@ int main()
     cin>>t;
     l=0,h=n-1;
     while((a[l]!=t)&&(a[h]!=t)){
-        c=(l+h)/2;
+        //c=(l+h)/2; c will go out of range for big value of l and h
+        c = l + (h-l)/2;
         if(a[c]<t){
             l=c;
         }
