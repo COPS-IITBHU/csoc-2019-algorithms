@@ -48,6 +48,6 @@ while(tests--)
         cin>>a[i]>>b[i];
         // here array a stores weight and array b stores value.
     }
-    cout<<solve(n1,m1);
+    cout<<solve(n1,m1)<<'\n';
 }
 }
