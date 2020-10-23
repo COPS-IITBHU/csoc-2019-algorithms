@@ -16,7 +16,7 @@ void lis(int *a, int n)
         if(v[i].size()>maxi)
             maxi=v[i].size();
     }
-    cout<<"Length of Longest Increasing Subsequence is - "<<maxi<<endl;
+    cout<<"Length of Longest Increasing Subsequence is - "<<maxi<<'\n';
     cout<<"Longest Increasing Subsequence is:- ";
     for(i=0;i<n;i++)
     {
