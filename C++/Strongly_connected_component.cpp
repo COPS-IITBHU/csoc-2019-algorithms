@@ -1,4 +1,3 @@
-/*      Abhijith    */
 #include<bits/stdc++.h>
 #include<iomanip>
 #define lld long long int
